@@ -1,0 +1,298 @@
+/* Add CSS here */
+body {
+    background-color: #28223f;
+    font-family: 'popins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-m {
+    height: 600px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    width: 35%;
+    border-radius: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    height: 50px;
+    color: #151a41;
+    margin-left: 190px;
+    margin-top: -100px;
+}
+
+p {
+    font-size: 10px;
+    color: white;
+}
+
+.container-1 {
+    position: absolute;
+    background-color: #231e39;
+    height: 470px;
+    width: 120%;
+    border-radius: 0.3em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container-1 .wraper img {
+    position: relative;
+    z-index: 2;
+    border-radius: 25em;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #151a41;
+    object-fit: cover;
+    margin-top: 80px;
+    margin-left: 40px;
+    transition: all 0.5s ease;
+}
+
+.container-1:hover .wraper img.active {
+    height: 470px;
+    width: 350px;
+    margin: 0px auto;
+    border-radius: 0.3em;
+    border: none;
+}
+
+.wraper .title {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.place h1 {
+    font-size: 13px;
+    color: white;
+}
+
+.btn {
+    width: 240px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.content p {
+    font-size: 10px;
+    color: white;
+}
+
+.buttons .btn button {
+    border-radius: 0.3em;
+    width: 45%;
+    height: 30px;
+    color: #03bfcb;
+    border-color: #03bfcb;
+    border-width: 2px;
+    font-size: 11px;
+    transition: 0.7s;
+}
+
+.btn button:hover {
+    transform: scale(0.95);
+    background-color: #03bfcb;
+    color: white;
+}
+
+.closet {
+    position: relative;
+    height: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin-top: 30px;
+    gap: 8px;
+}
+
+.cards {
+    padding: 8px;
+    font-size: 9px;
+    color: #03bfcb;
+    border-width: 0.01px;
+    border-color: #03bfcb;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #28223f;
+        font-family: 'popins', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container-m {
+        height: 600px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        position: relative;
+        height: 400px;
+        width: 65%;
+        border-radius: 0.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: flex-end;
+        width: 20%;
+        height: 50px;
+        color: #151a41;
+        margin-left: 190px;
+        margin-top: -100px;
+    }
+
+    p {
+        font-size: 10px;
+        color: white;
+    }
+
+    .container-1 {
+        position: absolute;
+        background-color: #231e39;
+        height: 470px;
+        width: 120%;
+        border-radius: 0.3em;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container-1 .wraper img {
+        position: relative;
+        z-index: 2;
+        border-radius: 25em;
+        display: block;
+        height: 100px;
+        width: 100px;
+        border: 5px solid #151a41;
+        object-fit: cover;
+        margin-top: 80px;
+        margin-left: 40px;
+        transition: all 0.5s ease;
+    }
+
+    .container-1:hover .wraper img.active {
+        height: 470px;
+        width: 350px;
+        margin: 0px auto;
+        border-radius: 0.3em;
+        border: none;
+    }
+
+    .wraper .title {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 800;
+        line-height: 30px;
+    }
+
+    .place {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .place h1 {
+        font-size: 13px;
+        color: white;
+    }
+
+    .btn {
+        width: 240px;
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .content p {
+        font-size: 10px;
+        color: white;
+    }
+
+    .buttons .btn button {
+        border-radius: 0.3em;
+        width: 45%;
+        height: 30px;
+        color: #03bfcb;
+        border-color: #03bfcb;
+        border-width: 2px;
+        font-size: 11px;
+        transition: 0.7s;
+    }
+
+    .btn button:hover {
+        transform: scale(0.95);
+        background-color: #03bfcb;
+        color: white;
+    }
+
+    .closet {
+        position: relative;
+        height: 80px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        margin-top: 30px;
+        gap: 8px;
+    }
+
+    .cards {
+        padding: 8px;
+        font-size: 9px;
+        color: #03bfcb;
+        border-width: 0.01px;
+        border-color: #03bfcb;
+    }
+}
